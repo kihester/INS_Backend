@@ -1,4 +1,4 @@
-﻿namespace ClassLibrary
+﻿namespace INS_Backend
 {
     public class User
     {

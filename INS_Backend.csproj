@@ -10,14 +10,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="ClassLibrary\ClassLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="UserLibrary">
-      <HintPath>..\UserLibrary\bin\Debug\net6.0\UserLibrary.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

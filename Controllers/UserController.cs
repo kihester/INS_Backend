@@ -1,4 +1,3 @@
-using ClassLibrary;
 using Microsoft.AspNetCore.Mvc;
 
 namespace INS_Backend.Controllers
