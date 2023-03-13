@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brjau\\.nuget\\packages\\": {}
+    "C:\\Users\\kiera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brjau\\source\\repos\\INS_Backend\\INS_Backend.csproj",
+      "projectUniqueName": "C:\\Users\\kiera\\source\\repos\\INS_Backend\\INS_Backend.csproj",
       "projectName": "INS_Backend",
-      "projectPath": "C:\\Users\\brjau\\source\\repos\\INS_Backend\\INS_Backend.csproj",
-      "packagesPath": "C:\\Users\\brjau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brjau\\source\\repos\\INS_Backend\\obj\\",
+      "projectPath": "C:\\Users\\kiera\\source\\repos\\INS_Backend\\INS_Backend.csproj",
+      "packagesPath": "C:\\Users\\kiera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kiera\\source\\repos\\INS_Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\brjau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kiera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
