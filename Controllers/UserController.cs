@@ -1,5 +1,5 @@
+using ClassLibrary;
 using Microsoft.AspNetCore.Mvc;
-using static UtilityLibraries.UserLibrary;
 
 namespace INS_Backend.Controllers
 

@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -216,10 +226,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "ClassLibrary/ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ClassLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -229,11 +245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kiera\\source\\repos\\INS_Backend\\INS_Backend.csproj",
+      "projectUniqueName": "C:\\Users\\kiera\\Source\\Repos\\INS_Backend\\INS_Backend.csproj",
       "projectName": "INS_Backend",
-      "projectPath": "C:\\Users\\kiera\\source\\repos\\INS_Backend\\INS_Backend.csproj",
+      "projectPath": "C:\\Users\\kiera\\Source\\Repos\\INS_Backend\\INS_Backend.csproj",
       "packagesPath": "C:\\Users\\kiera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kiera\\source\\repos\\INS_Backend\\obj\\",
+      "outputPath": "C:\\Users\\kiera\\Source\\Repos\\INS_Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kiera\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,7 +265,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kiera\\Source\\Repos\\INS_Backend\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\kiera\\Source\\Repos\\INS_Backend\\ClassLibrary\\ClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
