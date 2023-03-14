@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace INS_Backend.Controllers
@@ -27,6 +28,7 @@ namespace INS_Backend.Controllers
 
 
         [HttpGet(Name = "users")]
+        [Authorize(Roles = "Admin")]
         public IEnumerable<User> Get()
         {
             // replace with database call
